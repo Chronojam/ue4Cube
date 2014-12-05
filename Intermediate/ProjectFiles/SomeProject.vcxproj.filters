@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SomeProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{06E40223-F938-4605-8750-59AC2876E19F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SomeProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SomeProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA4D4F2D-F7D2-4AE9-8F2E-B7897595C7F1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SomeProject">
+      <UniqueIdentifier>{8DEB748D-8AA8-4C0B-857C-753DD5C32343}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SomeProject\CubeActor.cpp">
+      <Filter>Source\SomeProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SomeProject\CubeActor.h">
+      <Filter>Source\SomeProject</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SomeProject\SomeProject.Build.cs">
+      <Filter>Source\SomeProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SomeProject\SomeProject.cpp">
+      <Filter>Source\SomeProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SomeProject\SomeProject.h">
+      <Filter>Source\SomeProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SomeProject\SomeProjectGameMode.cpp">
+      <Filter>Source\SomeProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SomeProject\SomeProjectGameMode.h">
+      <Filter>Source\SomeProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\SomeProject\Resources">
+      <UniqueIdentifier>{521B7BE4-4491-41CB-A1C8-67B344248581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SomeProject\Resources\Windows">
+      <UniqueIdentifier>{47E200C8-F486-4286-847E-A4EDEAAA3E0B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SomeProject\Resources\Windows\SomeProject.ico">
+      <Filter>Source\SomeProject\Resources\Windows</Filter>
+    </None>
+    <ResourceCompile Include="..\..\Source\SomeProject\Resources\Windows\SomeProject.rc">
+      <Filter>Source\SomeProject\Resources\Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BP_Libs.h">
+      <Filter>Source\SomeProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+Intermediate/Build/
+Intermediate/Shaders/
+Binaries/
+Saved/
+
+*.sdf
+*.opensdf
